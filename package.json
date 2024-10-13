@@ -1,0 +1,14 @@
+{
+  "name": "artista",
+  "version": "1.0.0",
+  "description": "a beautiful front template",
+  "main": "index.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./tailwind/style.css -o ./css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.13"
+  }
+}
