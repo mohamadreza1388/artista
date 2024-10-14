@@ -604,65 +604,69 @@ video {
   font-style: normal;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
-.mt-11 {
-  margin-top: 2.75rem;
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .flex {
   display: flex;
 }
 
-.h-\[\] {
-  height: ;
-}
-
-.h-\[52px\] {
-  height: 52px;
-}
-
-.h-\[32px\] {
-  height: 32px;
-}
-
-.h-\[40px\] {
-  height: 40px;
-}
-
 .h-\[44px\] {
   height: 44px;
+}
+
+.h-\[690px\] {
+  height: 690px;
 }
 
 .min-h-\[100vh\] {
   min-height: 100vh;
 }
 
-.w-\[91\%\] {
-  width: 91%;
-}
-
-.w-\[172px\] {
-  width: 172px;
-}
-
-.w-\[152px\] {
-  width: 152px;
-}
-
-.w-\[140px\] {
-  width: 140px;
-}
-
 .w-\[150px\] {
   width: 150px;
 }
 
+.w-\[91\%\] {
+  width: 91%;
+}
+
+.w-\[416px\] {
+  width: 416px;
+}
+
+.w-\[390px\] {
+  width: 390px;
+}
+
 .max-w-\[1440px\] {
   max-width: 1440px;
+}
+
+.basis-1\/2 {
+  flex-basis: 50%;
 }
 
 .list-none {
@@ -685,6 +689,10 @@ video {
   justify-content: space-between;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .gap-7 {
   gap: 1.75rem;
 }
@@ -702,57 +710,46 @@ video {
   border-width: 2px;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-solid {
   border-style: solid;
-}
-
-.border-\[1px_solid_red\] {
-  border-color: 1px solid red;
-}
-
-.border-\[red\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(255 0 0 / var(--tw-border-opacity));
-}
-
-.border-\[solid\] {
-  border-color: solid;
-}
-
-.border-\[rgba\(0\2c 0\2c 0\2c 0\.20\)\] {
-  border-color: rgba(0,0,0,0.20);
 }
 
 .border-\[rgba\(0\2c 0\2c 0\2c 0\.12\)\] {
   border-color: rgba(0,0,0,0.12);
 }
 
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .bg-body {
   background-image: linear-gradient(210deg, #E1E7FF 18.31%, #708DFA 155.04%);
+}
+
+.px-\[90px\] {
+  padding-left: 90px;
+  padding-right: 90px;
 }
 
 .pt-11 {
   padding-top: 2.75rem;
 }
 
-.text-\[20px\] {
-  font-size: 20px;
-}
-
-.text-\[18px\] {
-  font-size: 18px;
-}
-
 .text-\[17px\] {
   font-size: 17px;
 }
 
-.font-medium {
-  font-weight: 500;
-}
-
 .font-bold {
   font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
 }
 
 .text-\[\#6E6E73\] {
