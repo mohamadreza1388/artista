@@ -42,3 +42,7 @@
 *{
     font-family: "Gilroy", sans-serif;
 }
+
+.main_img2{
+    transform: translate(-200px, 90px);
+}
